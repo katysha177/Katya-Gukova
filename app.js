@@ -7,3 +7,24 @@ const result2 = her * her2
 const result3 = her2 - her
 const result4 = her2 / her2
 console.log(result,result2,result3,result4)
+const kat = "i want sunday";
+const kat1 = "and ice cream";
+const result5 = kat + kat1;
+console.log(result5)
+const her3 = false;
+const her4 = true;
+const result6 = her3 && her4;
+const result7 = her3 || her4;
+console.log(result6,result7)
+const kat2 = "drink";
+const kat3 = "eat";
+const result8 = kat2 === kat3;
+const result9 = kat2 !== kat3;
+console.log(result8)
+console.log(result9)
+const kat4 = "sun";
+const kat5 = "sun";
+const result10 = kat4 === kat5;
+const result11 = kat4 !== kat5;
+console.log(result10)
+console.log(result11)
