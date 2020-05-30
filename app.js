@@ -49,7 +49,7 @@ console.log(result_strok.length)
 //task 9 end
 // task 10 star
 const ski = "Dublin";
-const f_ski = () => { const ski2 = "Berlin"; }
-const result_ski = f_ski(ski);
+const f_ski = () => { const ski2 = "Berlin"; return ski + ski2; }
+const result_ski = f_ski();
 console.log(result_ski)
-// task 10 end
+//task 10 end
