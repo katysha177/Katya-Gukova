@@ -28,3 +28,9 @@ const result10 = kat4 === kat5;
 const result11 = kat4 !== kat5;
 console.log(result10)
 console.log(result11)
+const six = false;
+console.log (typeof six)
+const six1 = "fool";
+console.log(typeof six1)
+const six2 = 5;
+console.log(typeof six2)
