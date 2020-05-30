@@ -34,3 +34,8 @@ const six1 = "fool";
 console.log(typeof six1)
 const six2 = 5;
 console.log(typeof six2)
+const yui = { prop1: 32, prop2: "look", klar: true }
+console.log(yui)
+const str = "summer";
+const str1 = "jummpimg";
+console.log(str.length + str1.length)
