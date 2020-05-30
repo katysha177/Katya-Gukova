@@ -39,3 +39,11 @@ console.log(yui)
 const str = "summer";
 const str1 = "jummpimg";
 console.log(str.length + str1.length)
+//task 9 star
+const add = (per1, per2) => { return per1 - per2; }
+const result12 = add(8, 4);
+console.log(result12)
+const strok = (strok1, strok2) => { return strok1 + strok2; }
+const result_strok = strok("hold","fine");
+console.log(result_strok.length)
+//task 9 end
