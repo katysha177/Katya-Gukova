@@ -54,6 +54,10 @@ const result_ski = f_ski();
 console.log(result_ski)
 //task 10 end
 //task 11 start
+// Comment:
+// first of all, task 10  should be a function
+// The second: you try to return the result of console.log function.
+// The result of console.log fuction is undefined. 
 const li = "like";
 if (li === "like") { return console.log(li.length) }
 else { return console.log(li+10) }
@@ -64,6 +68,7 @@ const tre = "i want go to walk";
 const registr = _.upperCase(tre);
 console.log(registr)
 const num = {num1:4, num2: 6};
+// Sounds good. You have resolved the task with your function. Good solution
 const f_num = (num1,num2) => { add(4,6) }
 console.log(f_num)
 //task 12 end
