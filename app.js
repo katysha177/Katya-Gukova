@@ -47,9 +47,14 @@ const strok = (strok1, strok2) => { return strok1 + strok2; }
 const result_strok = strok("hold","fine");
 console.log(result_strok.length)
 //task 9 end
-// task 10 star
+//task 10 star
 const ski = "Dublin";
 const f_ski = () => { const ski2 = "Berlin"; return ski + ski2; }
 const result_ski = f_ski();
 console.log(result_ski)
 //task 10 end
+//task 11 start
+const li = "like";
+if (li === "like") { return console.log(li.length) }
+else { return console.log(li+10) }
+//task 11 end
