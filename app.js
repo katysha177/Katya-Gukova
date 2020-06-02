@@ -61,9 +61,9 @@ else { return console.log(li+10) }
 //task 12 start
 const _ = require('lodash');
 const tre = "i want go to walk";
-const registr = _.upperCase(tre);
+const registr = () => { const tre = "i want go to walk"; _.upperCase(tre);
 console.log(registr)
 const num = {num1:4, num2: 6};
-const f_num = (num1,num2) => { add(4,6) }
+const f_num = (num1,num2) => { add(num1,num2) }
 console.log(f_num)
 //task 12 end
