@@ -55,22 +55,32 @@ console.log(result_ski)
 //task 10 end
 //task 11 start
 // Comment:
-// first of all, task 10  should be a function
+// first of all, task 11  should be a function
 // The second: you try to return the result of console.log function.
 // The result of "console.log" function is undefined.
-const li = "like";
-if (li === "like") { return console.log(li.length) }
-else { return console.log(li+10) }
+const li = 4 ;
+const f_li = (li) => {
+  if (typeof li === "string") {
+    return (li.length)
+  }
+   else {
+     if (typeof li === "number") {
+       return (li+10)
+    }
+}
+}
+console.log(f_li(li))
 //task 11 end
 //task 12 start
-const _ = require('lodash');
+const _ = require("lodash");
 const tre = "i want go to walk";
-const registr = () => { const tre = "i want go to walk"; _.upperCase(tre);
-console.log(registr)
+const registr = (tre) => { return _.upperCase(tre) }
+const result_reg = registr(tre);
+console.log(result_reg)
 const num = {num1:4, num2: 6};
-const f_num = (num1,num2) => { add(num1,num2) }
+const f_num = (anyNumber1,anyNumber2) => { return _.add(anyNumber1,anyNumber2) }
+const result_f_num = f_num(num.num1, num.num2);
 // If you want to return value from function, you have to use return word. f_num function doesn't contain return word.
 // Lodash has the same function as well.
-
-console.log(f_num) // if you want to call the function, you have to use () brackets
-//task 12 end
+console.log(result_f_num) // if you want to call the function, you have to use () brackets
+// task 12 end
