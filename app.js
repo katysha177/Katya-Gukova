@@ -84,3 +84,18 @@ const result_f_num = f_num(num.num1, num.num2);
 // Lodash has the same function as well.
 console.log(result_f_num) // if you want to call the function, you have to use () brackets
 // task 12 end
+// task 13 start
+const sum = "jin" ;
+const f_sun = (sum) => {
+  if (typeof sum !== "number") {
+    throw new Error("sum is not number")
+  }
+}
+f_sun(sum)
+try {
+  const sum = "not number";
+  f_sun(sum)
+} catch(e) {
+  console.log(e)
+}
+// task 13 end
