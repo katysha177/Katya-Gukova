@@ -65,13 +65,12 @@ else { return console.log(li+10) }
 //task 12 start
 const _ = require('lodash');
 const tre = "i want go to walk";
-const registr = _.upperCase(tre);
+const registr = () => { const tre = "i want go to walk"; _.upperCase(tre);
 console.log(registr)
 const num = {num1:4, num2: 6};
-// Sounds good. You have resolved the task with your function. Good solution, but lodash has the same function.
-const f_num = (num1,num2) => { add(4,6) }
-// you don't use num1 and num2 input parameters.
-// If you want to return value from function, you have to use return word. f_num doesn't contain return word.
+const f_num = (num1,num2) => { add(num1,num2) }
+// If you want to return value from function, you have to use return word. f_num function doesn't contain return word.
+// Lodash has the same function as well.
 
 console.log(f_num) // if you want to call the function, you have to use () brackets
 //task 12 end
