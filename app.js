@@ -85,7 +85,7 @@ const result_f_num = f_num(num.num1, num.num2);
 console.log(result_f_num) // if you want to call the function, you have to use () brackets
 // task 12 end
 // task 13 start
-const sum = "jin" ;
+const sum = 4 ;
 const f_sun = (sum) => {
   if (typeof sum !== "number") {
     throw new Error("sum is not number")
@@ -99,3 +99,51 @@ try {
   console.log(e)
 }
 // task 13 end
+// task 14 start
+const lap = 4;
+const zvyk = "gav";
+const pokrov = "wool";
+const f_animals = (lap,zvyk,pokrov) => {
+  if (lap === 2) {
+    if (pokrov === "feathers");
+    if (zvyk === "krya") {
+      console.log("duck")
+    }
+  }
+  else {
+    if (lap === 4) {
+      if (pokrov === "wool");
+      if (zvyk === "miau") {
+        console.log("catch")
+      }
+    }
+    else {
+      if (lap === 4);
+      if (pokrov === "wool");
+      if (zvyk === "mu") {
+        console.log("cow")
+      }
+      else {
+        if (lap === 4);
+        if (pokrov === "wool");
+        if (zvyk === "gav") {
+          console.log("dog")
+        }
+        else {
+          if (lap !== 2);
+          if (lap !== 4);
+          if (pokrov !== "wool");
+          if (pokrov !== "feathers");
+          if (zvuk !== "mu");
+          if (zvuk !== "krya");
+          if (zvuk !== "miau");
+          if (zvuk !== "gav") {
+            throw new Error ("We could not recognize the animal")
+          }
+        }
+      }
+    }
+  }
+  }
+f_animals(lap,zvyk,pokrov)
+// task 14 end
