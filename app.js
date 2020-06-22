@@ -103,9 +103,11 @@ try {
 const lap = 4;
 const zvyk = "gav";
 const pokrov = "wool";
+
+// TODO: function has to return value
 const f_animals = (lap,zvyk,pokrov) => {
   if (lap === 2) {
-    if (pokrov === "feathers");
+    if (pokrov === "feathers"); // so what?
     if (zvyk === "krya") {
       console.log("duck")
     }
@@ -118,8 +120,8 @@ const f_animals = (lap,zvyk,pokrov) => {
       }
     }
     else {
-      if (lap === 4);
-      if (pokrov === "wool");
+      if (lap === 4); // are u sure? we have already checked "lap" in the previous "if"
+      if (pokrov === "wool"); // so what?
       if (zvyk === "mu") {
         console.log("cow")
       }
@@ -137,13 +139,18 @@ const f_animals = (lap,zvyk,pokrov) => {
           if (zvuk !== "mu");
           if (zvuk !== "krya");
           if (zvuk !== "miau");
-          if (zvuk !== "gav") {
+          if (zvuk !== "gav") { // something strange. we have to simplify logic.
             throw new Error ("We could not recognize the animal")
           }
         }
       }
     }
   }
-  }
+
+  // for help: "throw" has to be used once in the end of the function out of any "if".
+}
+
+
+
 f_animals(lap,zvyk,pokrov)
 // task 14 end
