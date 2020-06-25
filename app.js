@@ -106,40 +106,26 @@ const pokrov = "wool";
 
 // TODO: function has to return value
 const f_animals = (lap,zvyk,pokrov) => {
-  if (lap === 2) {
-    if (pokrov === "feathers"); // so what?
-    if (zvyk === "krya") {
-      console.log("duck")
+    if (lap === 2) {
+     return console.log("duck")
     }
-  }
-  else {
+    else {
     if (lap === 4) {
       if (pokrov === "wool");
       if (zvyk === "miau") {
-        console.log("catch")
+        return console.log("catch")
       }
     }
     else {
-      if (lap === 4); // are u sure? we have already checked "lap" in the previous "if"
-      if (pokrov === "wool"); // so what?
       if (zvyk === "mu") {
-        console.log("cow")
+         return console.log("cow")
       }
-      else {
-        if (lap === 4);
-        if (pokrov === "wool");
-        if (zvyk === "gav") {
-          console.log("dog")
+        else {
+            if (zvyk === "gav") {
+          return console.log("dog")
         }
         else {
-          if (lap !== 2);
-          if (lap !== 4);
-          if (pokrov !== "wool");
-          if (pokrov !== "feathers");
-          if (zvuk !== "mu");
-          if (zvuk !== "krya");
-          if (zvuk !== "miau");
-          if (zvuk !== "gav") { // something strange. we have to simplify logic.
+            if (zvuk !== "gav") { // something strange. we have to simplify logic.
             throw new Error ("We could not recognize the animal")
           }
         }
